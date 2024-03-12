@@ -120,7 +120,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
         <CardFooter className="h-full ">
           <Dialog onOpenChange={handleOnOpenChangeDialog}>
             <DialogTrigger className="flex w-full">
-              <Button className="flex-1 mb-4" variant={"outline"}>
+              <Button className="flex-1 mb-7" variant={"outline"}>
                 Adicionar nova nota
               </Button>
             </DialogTrigger>
